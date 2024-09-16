@@ -18,8 +18,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bezkoder.spring.jpa.postgresql.model.Tutorial;
-import com.bezkoder.spring.jpa.postgresql.repository.TutorialRepository;
+import com.rao.tutorial.model.Tutorial;
+import com.rao.tutorial.repository.TutorialRepository;
 
 @CrossOrigin(origins = "http://localhost:8081")
 @RestController
